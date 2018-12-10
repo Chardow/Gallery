@@ -1,0 +1,38 @@
+body{
+	background-color: #2d2d2d;
+	color: grey;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 1px 3px #1d1d1d;
+}
+.thumb{
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 10%;
+}
+img.thumb{
+	filter:blur(1px) grayscale(100%);
+}
+.thumb:hover{
+	filter: grayscale(0%);
+	 	
+
+		
+}
+.imgWrapper{
+	width: 300px;
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.imgWrapper:nth-child(odd):hover{
+	transform: rotate(2deg) scale(1.08);
+	
+}
+.imgWrapper:nth-child(even):hover{
+	transform: rotate(-2deg) scale(1.08);
+}
